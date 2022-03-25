@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../linearlist-implementation.h
+linearlist.h
+-
+stdexcept
+-
+
+../linearlist.h
+cstdint
+-
+linearlist-implementation.h
+-
+
+/Users/bobk/Documents/School/Courses/3700.course/Containers/LinearList/main.cpp
+iostream
+-
+linearlist.h
+-
+
